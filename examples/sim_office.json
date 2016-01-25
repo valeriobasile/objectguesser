@@ -1,0 +1,98 @@
+{
+    "bounding_box": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ]
+    ], 
+    "centroid": [
+        0, 
+        0, 
+        0
+    ], 
+    "co_occurrences": [
+        [
+            "Mouse_(computing)", 
+            98.55, 
+            "near_2"
+        ], 
+        [
+            "Computer_monitor", 
+            96.2, 
+            "near_2"
+        ], 
+        [
+            "Office_chair", 
+            67.3, 
+            "near_3"
+        ], 
+        [
+            "Mug", 
+            61.14, 
+            "near_2"
+        ]
+    ], 
+    "context_history": [
+        [
+            "Office", 
+            1, 
+            "Desk", 
+            1
+        ]
+    ], 
+    "context_room_label": "Office", 
+    "context_surface_label": "Desk", 
+    "local_id": 0, 
+    "local_objects": [
+        [
+            "Mouse_(computing)", 
+            1, 
+            "small", 
+            "near_2"
+        ], 
+        [
+            "Office_chair", 
+            1, 
+            "large", 
+            "near_3"
+        ], 
+        [
+            "Computer_keyboard", 
+            1, 
+            "medium", 
+            "near_2"
+        ], 
+        [
+            "Mobile_phone", 
+            1, 
+            "medium", 
+            "near_2"
+        ], 
+        [
+            "Mug", 
+            1, 
+            "small", 
+            "near_3"
+        ], 
+        [
+            "Computer_monitor", 
+            1, 
+            "large", 
+            "near_2"
+        ]
+    ], 
+    "query_ground_truth": "Desktop_computer", 
+    "size": "large"
+}
+
