@@ -1,0 +1,14 @@
+Attic
+Basement
+Bathroom
+Bedroom
+Cabinet_(room)
+Changing_room
+Dining_room
+Garage_(residential)
+Hall
+Kitchen
+Laundry_room
+Parlour
+Room
+Vestibule_(architecture)
