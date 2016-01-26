@@ -102,9 +102,10 @@ def cosine_similarity(v1,v2):
         sumxy += x*y
     return sumxy/math.sqrt(sumxx*sumyy)
     
-def parse_query(data):
+def parse_query(data, vicinity):
     query = json.loads(data)
-    distances = ["near_0","near_1","near_2"]
+      
+    distances = ["near_{0}".format(x) for x in range(vicinity+1)]
     
     # fix missing objects
     objects = filter(lambda x: x[0] in vectors, query['local_objects'])
@@ -120,23 +121,28 @@ def relatedness(o, objects):
     if o in objects:
         return 0
     m = map(lambda x: cosine_similarity(vectors[o], vectors[x]), objects)
-    return max(m)    
-
+    if len(m)>1:
+        #return sum(m)/float(len(m))
+        return max(m)    
+    else:
+        return 0.0
+        
 class guess:
     def POST(self):
+        # default values
+        args = web.input(n='10', p='2')
+        n = eval(args.n)
+        proximity = eval(args.p)
+            
+        objects, labels = parse_query(web.data(), proximity)
+        
         result = []
-        objects, labels = parse_query(web.data())
-        
-        
         for o in vectors.keys():
             r = relatedness(o, labels)
             result.append({'object':o, 'relatedness':r})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
         
-        for r in result_sorted[:10]:
-            print r['relatedness'], r['object']
-
-        return json.dumps(result_sorted)
+        return json.dumps(result_sorted[:n])
         
 if __name__ == "__main__":
     app.run()
