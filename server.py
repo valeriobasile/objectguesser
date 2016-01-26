@@ -81,8 +81,6 @@ with open('kb/eslyes_toolsfurniture.nt') as f:
             elif category == 'tool':
                 tools.add(entity1)
 
-print tools
-print furniture
 def parse_query(data):
     query = json.loads(data)
     objects = map(lambda x: x[0], query['local_objects'])
@@ -90,6 +88,7 @@ def parse_query(data):
 
 class guess:
     def POST(self):
+        result = []
         objects = parse_query(web.data())
         candidates = dict()
         for o1 in objects:
@@ -101,10 +100,9 @@ class guess:
                         candidates[o2] = freq
         candidates_sorted = list(reversed(sorted(candidates.items(), key=operator.itemgetter(1))))
         for candidate in candidates_sorted:
-#            if candidate[0] in tools and not candidate[0] in furniture:
             if candidate[0] in tools:
-                print candidate[1], candidate[0]
-        return objects
+                result.append({'object':candidate[0], 'likelihood':candidate[1]})
+        return json.dumps(result)
 
 if __name__ == "__main__":
     app.run()
