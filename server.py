@@ -4,6 +4,7 @@ import web
 import logging as log
 import json
 import operator
+import math
 
 log.basicConfig(filename='log/server.log',level=log.INFO)
 
@@ -81,28 +82,62 @@ with open('kb/eslyes_toolsfurniture.nt') as f:
             elif category == 'tool':
                 tools.add(entity1)
 
+# read NASARI vectors
+log.info('reading vectors')
+vectors = dict()
+with open('tools_vectors.txt') as f:
+    for line in f:
+        fields = line.rstrip().split(' ')
+        label = fields[1]
+        coordinates = map(eval, fields[2:])
+        vectors[label] = coordinates
+        
+def cosine_similarity(v1,v2):
+    "compute cosine similarity of v1 to v2: (v1 dot v2)/{||v1||*||v2||)"
+    sumxx, sumxy, sumyy = 0, 0, 0
+    for i in range(len(v1)):
+        x = v1[i]; y = v2[i]
+        sumxx += x*x
+        sumyy += y*y
+        sumxy += x*y
+    return sumxy/math.sqrt(sumxx*sumyy)
+    
 def parse_query(data):
     query = json.loads(data)
-    objects = map(lambda x: x[0], query['local_objects'])
-    return objects
+    distances = ["near_0","near_1","near_2"]
+    
+    # fix missing objects
+    objects = filter(lambda x: x[0] in vectors, query['local_objects'])
+
+    # filter for distance
+    objects = filter(lambda x: x[3] in distances, objects)
+
+    labels = map(lambda x: x[0], objects)
+
+    return objects, labels
+
+def relatedness(o, objects):
+    if o in objects:
+        return 0
+    m = map(lambda x: cosine_similarity(vectors[o], vectors[x]), objects)
+    return max(m)    
 
 class guess:
     def POST(self):
         result = []
-        objects = parse_query(web.data())
-        candidates = dict()
-        for o1 in objects:
-            if o1 in comentions:
-                for o2 ,freq in comentions[o1]:
-                    if o2 in candidates:
-                        candidates[o2] += freq
-                    else:
-                        candidates[o2] = freq
-        candidates_sorted = list(reversed(sorted(candidates.items(), key=operator.itemgetter(1))))
-        for candidate in candidates_sorted:
-            if candidate[0] in tools:
-                result.append({'object':candidate[0], 'likelihood':candidate[1]})
-        return json.dumps(result)
+        objects, labels = parse_query(web.data())
+        
+        
+        for o in vectors.keys():
+            r = relatedness(o, labels)
+            result.append({'object':o, 'relatedness':r})
+        result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
+        
+        for r in result_sorted[:10]:
+            print r['relatedness'], r['object']
 
+        return json.dumps(result_sorted)
+        
 if __name__ == "__main__":
     app.run()
+
