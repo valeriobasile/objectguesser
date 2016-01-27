@@ -91,7 +91,7 @@ with open('tools_vectors.txt') as f:
         label = fields[1]
         coordinates = map(eval, fields[2:])
         vectors[label] = coordinates
-        
+
 def cosine_similarity(v1,v2):
     "compute cosine similarity of v1 to v2: (v1 dot v2)/{||v1||*||v2||)"
     sumxx, sumxy, sumyy = 0, 0, 0
@@ -101,12 +101,25 @@ def cosine_similarity(v1,v2):
         sumyy += y*y
         sumxy += x*y
     return sumxy/math.sqrt(sumxx*sumyy)
-    
+
+def median(lst):
+    sortedLst = sorted(lst)
+    lstLen = len(lst)
+    index = (lstLen - 1) // 2
+
+    if (lstLen % 2):
+        return sortedLst[index]
+    else:
+        return (sortedLst[index] + sortedLst[index + 1])/2.0
+
+def hmean(lst):
+    return len(lst) / sum(1. / val for val in lst)
+
 def parse_query(data, vicinity):
     query = json.loads(data)
-      
+
     distances = ["near_{0}".format(x) for x in range(vicinity+1)]
-    
+
     # fix missing objects
     objects = filter(lambda x: x[0] in vectors, query['local_objects'])
 
@@ -117,33 +130,40 @@ def parse_query(data, vicinity):
 
     return objects, labels
 
-def relatedness(o, objects):
+def relatedness(o, objects, method):
     if o in objects:
         return 0
     m = map(lambda x: cosine_similarity(vectors[o], vectors[x]), objects)
     if len(m)>1:
-        #return sum(m)/float(len(m))
-        return max(m)    
+        if method == 'prod':
+            return reduce(lambda x,y:x*y, m)
+        elif method == 'median':
+            return 1.0 - median(m)
+        elif method == 'harm':
+            return 1.0 - hmean(m)
+        elif method == 'avg':
+            return sum(m)/float(len(m))
+        else: # default is max
+            return max(m)
     else:
         return 0.0
-        
+
 class guess:
     def POST(self):
         # default values
-        args = web.input(n='10', p='2')
+        args = web.input(n='10', p='2', m='max')
         n = eval(args.n)
         proximity = eval(args.p)
-            
+
         objects, labels = parse_query(web.data(), proximity)
-        
+
         result = []
         for o in vectors.keys():
-            r = relatedness(o, labels)
+            r = relatedness(o, labels, method=args.m)
             result.append({'object':o, 'relatedness':r})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
-        
+
         return json.dumps(result_sorted[:n])
-        
+
 if __name__ == "__main__":
     app.run()
-
