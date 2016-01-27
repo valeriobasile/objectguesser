@@ -1,4 +1,3 @@
 *.pyc
 *.log
-log/server.log
 env
