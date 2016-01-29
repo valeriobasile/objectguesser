@@ -120,8 +120,11 @@ def parse_query(data, vicinity):
 
     distances = ["near_{0}".format(x) for x in range(vicinity+1)]
 
+    query_objects = query['local_objects']
+    query_objects.append([query["context_room_label"],1,"","near_0"])
+    query_objects.append([query["context_surface_label"],1,"","near_0"])
     # fix missing objects
-    objects = filter(lambda x: x[0] in vectors, query['local_objects'])
+    objects = filter(lambda x: x[0] in vectors, query_objects)
 
     # filter for distance
     objects = filter(lambda x: x[3] in distances, objects)
