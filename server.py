@@ -92,6 +92,19 @@ with open('tools_vectors.txt') as f:
         coordinates = map(eval, fields[2:])
         vectors[label] = coordinates
 
+# read objects frequencies
+log.info('reading frequencies')
+frequencies = dict()
+with open('tools_frequencies.txt') as f:
+    for line in f:
+        fields = line.rstrip().split(' ')
+        label = fields[1]
+        frequency = eval(fields[0])
+        frequencies[label] = frequency
+# normalizing
+#m = float(max(frequencies.values()))
+#frequencies = {k: float(v)/m for k, v in frequencies.items()}
+
 def cosine_similarity(v1,v2):
     "compute cosine similarity of v1 to v2: (v1 dot v2)/{||v1||*||v2||)"
     sumxx, sumxy, sumyy = 0, 0, 0
@@ -136,7 +149,11 @@ def parse_query(data, vicinity):
 def relatedness(o, objects, method):
     if o in objects:
         return 0
+    for o2 in objects:
+        print cosine_similarity(vectors[o], vectors[o2]),o, o2
     m = map(lambda x: cosine_similarity(vectors[o], vectors[x]), objects)
+    #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
+
     if len(m)>1:
         if method == 'prod':
             return reduce(lambda x,y:x*y, m)
@@ -154,16 +171,17 @@ def relatedness(o, objects, method):
 class guess:
     def POST(self):
         # default values
-        args = web.input(n='10', p='2', m='max')
+        args = web.input(n='10', p='2', m='max', t=0)
         n = eval(args.n)
         proximity = eval(args.p)
-
+        threshold = eval(args.t)
         objects, labels = parse_query(web.data(), proximity)
 
         result = []
         for o in vectors.keys():
             r = relatedness(o, labels, method=args.m)
-            result.append({'object':o, 'relatedness':r})
+            if frequencies[o] > threshold:
+                result.append({'object':o, 'relatedness':r, 'frequency':frequencies[o]})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
 
         return json.dumps(result_sorted[:n])
