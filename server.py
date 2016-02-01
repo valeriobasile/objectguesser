@@ -179,7 +179,7 @@ class guess:
         result = []
         for o in vectors.keys():
             r = relatedness(o, labels, method=args.m)
-            if frequencies[o] > threshold:
+            if frequencies[o] >= threshold:
                 result.append({'object':o, 'relatedness':r, 'frequency':frequencies[o]})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
 
