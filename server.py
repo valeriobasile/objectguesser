@@ -149,8 +149,7 @@ def parse_query(data, vicinity):
 def relatedness(o, objects, method):
     if o in objects:
         return 0
-    for o2 in objects:
-        print cosine_similarity(vectors[o], vectors[o2]),o, o2
+
     m = map(lambda x: cosine_similarity(vectors[o], vectors[x]), objects)
     #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
 
@@ -171,7 +170,7 @@ def relatedness(o, objects, method):
 class guess:
     def POST(self):
         # default values
-        args = web.input(n='10', p='2', m='max', t=0)
+        args = web.input(n='10', p='2', m='max', t='0')
         n = eval(args.n)
         proximity = eval(args.p)
         threshold = eval(args.t)
