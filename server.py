@@ -18,7 +18,7 @@ app = web.application(urls, globals())
 # read NASARI vectors
 log.info('reading vectors')
 vectors = dict()
-with open('tools_vectors.txt') as f:
+with open('knowrob_vectors.txt') as f:
     for line in f:
         fields = line.rstrip().split(' ')
         label = fields[1]
@@ -28,7 +28,7 @@ with open('tools_vectors.txt') as f:
 # read objects frequencies
 log.info('reading frequencies')
 frequencies = dict()
-with open('tools_frequencies.txt') as f:
+with open('knowrob_frequencies.txt') as f:
     for line in f:
         fields = line.rstrip().split(' ')
         label = fields[1]
@@ -112,8 +112,12 @@ class guess:
         result = []
         for o in vectors.keys():
             r = relatedness(o, labels, method=args.m)
-            if frequencies[o] >= threshold:
-                result.append({'object':o, 'relatedness':r, 'frequency':frequencies[o]})
+            if o in frequencies:
+                freq = frequencies[o]
+            else:
+	            freq = 0
+            if freq >= threshold:
+                result.append({'object':o, 'relatedness':r, 'frequency':freq})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
 
         return json.dumps(result_sorted[:n])
