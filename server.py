@@ -70,9 +70,6 @@ def relatedness(o, objects, method):
     m = map(lambda x: cosine_similarity(vectors['tools'][o], vectors['tools'][x]), objects)
     #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
 
-    print o
-    print objects
-    print m
     if len(m)>1:
         if method == 'prod':
             return reduce(lambda x,y:x*y, m)
@@ -113,20 +110,31 @@ for cat in ['tools', 'rooms', 'furniture']:
     #m = float(max(frequencies.values()))
     #frequencies = {k: float(v)/m for k, v in frequencies.items()}
 
+# read abstraction map
+abstraction = dict()
+for i in [6, 7,8,9,10]:
+    if not i in abstraction:
+        abstraction[i] = dict()
+    with open('abstraction/abstraction_map{0}.txt'.format(i)) as f:
+        for line in f:
+            specific, generic = line.rstrip().split(' ')
+            abstraction[i][specific] = generic
+
 class guess:
     def POST(self):
         # default values
-        args = web.input(n='10', p='2', m='prod', t='0')
+        args = web.input(n='10', p='2', m='prod', t='0', a='0')
         n = eval(args.n)
         proximity = eval(args.p)
         threshold = eval(args.t)
+        abstraction_level = eval(args.a)
         objects, labels, cooccurrences, room, surface = parse_query(web.data(), proximity)
 
         result = []
         for o in vectors['tools'].keys():
             r = relatedness(o, labels, method=args.m)
 
-            if room in vectors['rooms']:
+            '''if room in vectors['rooms']:
                 roomrel = cosine_similarity(vectors['tools'][o], vectors['rooms'][room])
             else:
                 roomrel = 0.0
@@ -134,13 +142,17 @@ class guess:
                 surfrel = cosine_similarity(vectors['tools'][o], vectors['furniture'][surface])
             else:
                 surfrel = 0.0
+            '''
+
+            if abstraction_level>0 and o in abstraction[abstraction_level]:
+                o = abstraction[abstraction_level][o]
 
             if o in frequencies['tools']:
                 freq = frequencies['tools'][o]
             else:
 	            freq = 0
             if freq >= threshold:
-                result.append({'object':o, 'relatedness':r, 'frequency':freq, 'roomrel':roomrel, 'surfrel':surfrel})
+                result.append({'object':o, 'relatedness':r, 'frequency':freq})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
 
         return json.dumps(result_sorted[:n])

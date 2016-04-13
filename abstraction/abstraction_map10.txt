@@ -1,0 +1,16 @@
+Cooler Major_appliance
+Desktop_computer Microcomputer
+Frying_pan Cookware_and_bakeware
+Headset_(audio) Headphones
+Inkjet_printing Dot_matrix_printing
+Laptop Microcomputer
+Paper_knife Knife
+Mouse_button Push-button
+Reset_button Push-button
+Meat_slicer Knife
+Food_steamer Ship
+Wok Cookware_and_bakeware
+Washing_machine Major_appliance
+Dishwasher Major_appliance
+Refrigerator Major_appliance
+Mangle_(machine) Major_appliance

@@ -1,0 +1,1069 @@
+Sheet_pan-implement-n#1-n: cannot find DBpedia correspondence
+Sheet_pan-utensil-n#1-n: cannot find DBpedia correspondence
+Beverage_coaster-pad-n#4-n: cannot find DBpedia correspondence
+mat-n#7-n: cannot find synset in mapping
+Beverage_coaster-drip+mat-n#1-n: cannot find DBpedia correspondence
+/usr/lib/python2.7/site-packages/nltk/compat.py:659: RuntimeWarning: Argument <type 'str'> is not an unicode object. Passing an encoded string will likely have unexpected results.
+  return transliterate(method(self))
+Synset('gates.n.01'): entity already abstract enough
+Synset('blackboard.n.01'): entity already abstract enough
+Blender-implement-n#1-n: cannot find DBpedia correspondence
+Blender-utensil-n#1-n: cannot find DBpedia correspondence
+Sauce_boat-ware-n#1-n: cannot find DBpedia correspondence
+Kettle-implement-n#1-n: cannot find DBpedia correspondence
+Kettle-utensil-n#1-n: cannot find DBpedia correspondence
+insulating+material-n#1-n: cannot find synset in mapping
+Business_card-positive+identification-n#1-n: cannot find DBpedia correspondence
+Butter_dish-ware-n#1-n: cannot find DBpedia correspondence
+Synset('calculator.n.01'): entity already abstract enough
+Cauldron-implement-n#1-n: cannot find DBpedia correspondence
+Cauldron-utensil-n#1-n: cannot find DBpedia correspondence
+Synset('calling_card.n.02'): entity already abstract enough
+Can_opener-implement-n#1-n: cannot find DBpedia correspondence
+Canning-building+complex-n#1-n: cannot find DBpedia correspondence
+Canning-building+complex-n#1-n: cannot find DBpedia correspondence
+Synset('carbon_paper.n.01'): entity already abstract enough
+Synset('cartridge_paper.n.02'): entity already abstract enough
+Sellotape-tape-n#1-n: cannot find DBpedia correspondence
+Chafing_dish-implement-n#1-n: cannot find DBpedia correspondence
+Chafing_dish-utensil-n#1-n: cannot find DBpedia correspondence
+Chalice-ware-n#1-n: cannot find DBpedia correspondence
+Chopsticks-ware-n#1-n: cannot find DBpedia correspondence
+Coffee_cup-ware-n#1-n: cannot find DBpedia correspondence
+Peripheral-equipment-n#1-n: cannot find DBpedia correspondence
+Peripheral-electronic+equipment-n#1-n: cannot find DBpedia correspondence
+Joystick-implement-n#1-n: cannot find DBpedia correspondence
+Joystick-bar-n#3-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-implement-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-utensil-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-implement-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-utensil-n#1-n: cannot find DBpedia correspondence
+insulating+material-n#1-n: cannot find synset in mapping
+Tea_cosy-cloth+covering-n#1-n: cannot find DBpedia correspondence
+Crayon-implement-n#1-n: cannot find DBpedia correspondence
+Cup-ware-n#1-n: cannot find DBpedia correspondence
+Cutlery-ware-n#1-n: cannot find DBpedia correspondence
+Cyclostyle_(copier)-implement-n#1-n: cannot find DBpedia correspondence
+Kylix_(drinking_cup)-ware-n#1-n: cannot find DBpedia correspondence
+Input_device-equipment-n#1-n: cannot find DBpedia correspondence
+Input_device-electronic+equipment-n#1-n: cannot find DBpedia correspondence
+Dictaphone-equipment-n#1-n: cannot find DBpedia correspondence
+Dictaphone-recorder-n#1-n: cannot find DBpedia correspondence
+Dictaphone-magnetic+recorder-n#1-n: cannot find DBpedia correspondence
+Image_scanner-equipment-n#1-n: cannot find DBpedia correspondence
+Image_scanner-electronic+equipment-n#1-n: cannot find DBpedia correspondence
+Paper_cup-ware-n#1-n: cannot find DBpedia correspondence
+Doily-drygoods-n#1-n: cannot find DBpedia correspondence
+Doily-white+goods-n#2-n: cannot find DBpedia correspondence
+Doily-linen-n#3-n: cannot find DBpedia correspondence
+Drinking_straw-passage-n#3-n: cannot find DBpedia correspondence
+Drinking_straw-conduit-n#1-n: cannot find DBpedia correspondence
+Dutch_oven-implement-n#1-n: cannot find DBpedia correspondence
+Dutch_oven-utensil-n#1-n: cannot find DBpedia correspondence
+Earthenware-implement-n#1-n: cannot find DBpedia correspondence
+Earthenware-utensil-n#1-n: cannot find DBpedia correspondence
+Earthenware-ceramic+ware-n#1-n: cannot find DBpedia correspondence
+Egg_cup-ware-n#1-n: cannot find DBpedia correspondence
+Epergne-centerpiece-n#2-n: cannot find DBpedia correspondence
+Eraser-implement-n#1-n: cannot find DBpedia correspondence
+Fax-equipment-n#1-n: cannot find DBpedia correspondence
+Fax-apparatus-n#1-n: cannot find DBpedia correspondence
+Fax-duplicator-n#1-n: cannot find DBpedia correspondence
+Marker_pen-implement-n#1-n: cannot find DBpedia correspondence
+File_folder-folder-n#2-n: cannot find DBpedia correspondence
+Finger_bowl-ware-n#1-n: cannot find DBpedia correspondence
+Synset('flip_chart.n.01'): entity already abstract enough
+Fork-ware-n#1-n: cannot find DBpedia correspondence
+Frying_pan-implement-n#1-n: cannot find DBpedia correspondence
+Frying_pan-utensil-n#1-n: cannot find DBpedia correspondence
+Gridiron_(cooking)-implement-n#1-n: cannot find DBpedia correspondence
+Gridiron_(cooking)-utensil-n#1-n: cannot find DBpedia correspondence
+Griddle-implement-n#1-n: cannot find DBpedia correspondence
+Griddle-utensil-n#1-n: cannot find DBpedia correspondence
+Highlighter-implement-n#1-n: cannot find DBpedia correspondence
+Holloware-ware-n#1-n: cannot find DBpedia correspondence
+Placemat-drygoods-n#1-n: cannot find DBpedia correspondence
+Placemat-white+goods-n#2-n: cannot find DBpedia correspondence
+Ink_cartridge-cartridge-n#3-n: cannot find DBpedia correspondence
+Synset('label.n.04'): entity already abstract enough
+Local_area_network-system-n#1-n: cannot find DBpedia correspondence
+Local_area_network-network-n#5-n: cannot find DBpedia correspondence
+Synset('seek_time.n.01'): entity already abstract enough
+Paper_knife-implement-n#1-n: cannot find DBpedia correspondence
+Mimeograph-equipment-n#1-n: cannot find DBpedia correspondence
+Mimeograph-apparatus-n#1-n: cannot find DBpedia correspondence
+Mimeograph-duplicator-n#1-n: cannot find DBpedia correspondence
+Mixer_(cooking)-implement-n#1-n: cannot find DBpedia correspondence
+Mixer_(cooking)-utensil-n#1-n: cannot find DBpedia correspondence
+Mousepad-pad-n#4-n: cannot find DBpedia correspondence
+mat-n#7-n: cannot find synset in mapping
+Moustache_cup-ware-n#1-n: cannot find DBpedia correspondence
+Napkin-drygoods-n#1-n: cannot find DBpedia correspondence
+Napkin-white+goods-n#2-n: cannot find DBpedia correspondence
+Napkin-linen-n#3-n: cannot find DBpedia correspondence
+Synset('paper.n.01'): entity already abstract enough
+Paper_cutter-implement-n#1-n: cannot find DBpedia correspondence
+Synset('peeler.n.02'): entity already abstract enough
+Pen-implement-n#1-n: cannot find DBpedia correspondence
+Pencil-implement-n#1-n: cannot find DBpedia correspondence
+Pencil_sharpener-implement-n#1-n: cannot find DBpedia correspondence
+Pencil_sharpener-sharpener-n#1-n: cannot find DBpedia correspondence
+Telephone-equipment-n#1-n: cannot find DBpedia correspondence
+Telephone-electronic+equipment-n#1-n: cannot find DBpedia correspondence
+Photocopier-equipment-n#1-n: cannot find DBpedia correspondence
+Photocopier-apparatus-n#1-n: cannot find DBpedia correspondence
+Photocopier-duplicator-n#1-n: cannot find DBpedia correspondence
+Placemat-drygoods-n#1-n: cannot find DBpedia correspondence
+Placemat-white+goods-n#2-n: cannot find DBpedia correspondence
+Table_setting-ware-n#1-n: cannot find DBpedia correspondence
+Synset('plate.n.02'): entity already abstract enough
+Platter_(dishware)-ware-n#1-n: cannot find DBpedia correspondence
+Porringer-ware-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-implement-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-utensil-n#1-n: cannot find DBpedia correspondence
+Punch_bowl-ware-n#1-n: cannot find DBpedia correspondence
+Pyrex: cannot find entity in mapping
+Rolodex: cannot find entity in mapping
+Samovar-implement-n#1-n: cannot find DBpedia correspondence
+Samovar-utensil-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-implement-n#1-n: cannot find DBpedia correspondence
+Cookware_and_bakeware-utensil-n#1-n: cannot find DBpedia correspondence
+Saucer-ware-n#1-n: cannot find DBpedia correspondence
+Synset('seek_time.n.01'): entity already abstract enough
+Foodservice-ware-n#1-n: cannot find DBpedia correspondence
+Household_silver-ware-n#1-n: cannot find DBpedia correspondence
+Meat_slicer-implement-n#1-n: cannot find DBpedia correspondence
+Slop_bowl-ware-n#1-n: cannot find DBpedia correspondence
+Spoon-ware-n#1-n: cannot find DBpedia correspondence
+Spork: cannot find entity in mapping
+Steak_knife-implement-n#1-n: cannot find DBpedia correspondence
+Stock_pot-implement-n#1-n: cannot find DBpedia correspondence
+Stock_pot-utensil-n#1-n: cannot find DBpedia correspondence
+Stoneware-implement-n#1-n: cannot find DBpedia correspondence
+Stoneware-utensil-n#1-n: cannot find DBpedia correspondence
+Stoneware-ceramic+ware-n#1-n: cannot find DBpedia correspondence
+Sugar_bowl_(dishware)-ware-n#1-n: cannot find DBpedia correspondence
+Table_knife-implement-n#1-n: cannot find DBpedia correspondence
+Tablecloth-drygoods-n#1-n: cannot find DBpedia correspondence
+Tablecloth-white+goods-n#2-n: cannot find DBpedia correspondence
+Tablecloth-linen-n#3-n: cannot find DBpedia correspondence
+Tableware-ware-n#1-n: cannot find DBpedia correspondence
+Synset('tapa.n.02'): entity already abstract enough
+Infuser-implement-n#1-n: cannot find DBpedia correspondence
+Infuser-utensil-n#1-n: cannot find DBpedia correspondence
+Tea_set-ware-n#1-n: cannot find DBpedia correspondence
+Teacup-ware-n#1-n: cannot find DBpedia correspondence
+Teapot-implement-n#1-n: cannot find DBpedia correspondence
+Teapot-utensil-n#1-n: cannot find DBpedia correspondence
+Synset('teaspoon.n.01'): entity already abstract enough
+Synset('ticker_tape.n.01'): entity already abstract enough
+Tureen-ware-n#1-n: cannot find DBpedia correspondence
+Synset('watermark.n.02'): entity already abstract enough
+Webcam-equipment-n#1-n: cannot find DBpedia correspondence
+Webcam-photographic+equipment-n#1-n: cannot find DBpedia correspondence
+Wok-implement-n#1-n: cannot find DBpedia correspondence
+Wok-utensil-n#1-n: cannot find DBpedia correspondence
+Worksheet-sheet-n#2-n: cannot find DBpedia correspondence
+Batan_(stone): cannot find entity in mapping
+Remote_graphics_unit: cannot find entity in mapping
+Creative_Wave_Blaster: cannot find entity in mapping
+Rose_&_Frank_Co_v_JR_Crompton_&_Bros_Ltd: cannot find entity in mapping
+PERQ: cannot find entity in mapping
+Baking_stone: cannot find entity in mapping
+NeuroSky: cannot find entity in mapping
+Legacy_Plug_and_Play: cannot find entity in mapping
+Mimio_Notebook: cannot find entity in mapping
+Field_Ration_Eating_Device: cannot find entity in mapping
+ISO_217: cannot find entity in mapping
+Hardware_mixing: cannot find entity in mapping
+Sač: cannot find entity in mapping
+Crepulja: cannot find entity in mapping
+Arthur_Price: cannot find entity in mapping
+Jamonera: cannot find entity in mapping
+IntelliMouse: cannot find entity in mapping
+Data_100: cannot find entity in mapping
+TREVENTUS: cannot find entity in mapping
+Tajine: cannot find entity in mapping
+Plastic_cup: cannot find entity in mapping
+Apple_FileWare: cannot find entity in mapping
+Self-heating_can: cannot find entity in mapping
+Electro_Freeze: cannot find entity in mapping
+GameShark: cannot find entity in mapping
+HP-150: cannot find entity in mapping
+Drip-O-lator: cannot find entity in mapping
+Dictation_machine: cannot find entity in mapping
+Vidix: cannot find entity in mapping
+PC-8000_Series: cannot find entity in mapping
+Cage_cup: cannot find entity in mapping
+De_Koninklijke_Porceleyne_Fles: cannot find entity in mapping
+Plate_lunch: cannot find entity in mapping
+Dunvegan_Cup: cannot find entity in mapping
+New_Internet_Computer: cannot find entity in mapping
+Turkey_frills: cannot find entity in mapping
+Surface_computer: cannot find entity in mapping
+KVM_switch: cannot find entity in mapping
+Sphere_1: cannot find entity in mapping
+Continuous_stationery: cannot find entity in mapping
+OXO_(brand): cannot find entity in mapping
+Viners: cannot find entity in mapping
+Text_entry_interface: cannot find entity in mapping
+Compucolor_II: cannot find entity in mapping
+Ice_cream_maker: cannot find entity in mapping
+Descoware: cannot find entity in mapping
+Verrine: cannot find entity in mapping
+Bowl: cannot find entity in mapping
+Adhesive_label: cannot find entity in mapping
+Billycan: cannot find entity in mapping
+Computer_valeting: cannot find entity in mapping
+SteelSeries: cannot find entity in mapping
+Palayok: cannot find entity in mapping
+Bread_pan: cannot find entity in mapping
+Arc_International: cannot find entity in mapping
+Hoc_(programming_language): cannot find entity in mapping
+Digital_duplicator: cannot find entity in mapping
+Graffiti_2: cannot find entity in mapping
+Chip_creep: cannot find entity in mapping
+LUNA: cannot find entity in mapping
+Tetsubin: cannot find entity in mapping
+Porsgrund: cannot find entity in mapping
+Trapper_Keeper: cannot find entity in mapping
+Gestetner: cannot find entity in mapping
+Culinary_theatre: cannot find entity in mapping
+MIDI_controller: cannot find entity in mapping
+SpaceOrb_360: cannot find entity in mapping
+Juicebox_(container): cannot find entity in mapping
+Programmer's_key: cannot find entity in mapping
+Desktop_customization: cannot find entity in mapping
+Bundt_cake: cannot find entity in mapping
+Foam_food_container: cannot find entity in mapping
+Chinese_candy_box: cannot find entity in mapping
+Pickard_China: cannot find entity in mapping
+Kero: cannot find entity in mapping
+Mazagran: cannot find entity in mapping
+I-CubeX: cannot find entity in mapping
+Teasmade: cannot find entity in mapping
+Ring_binder: cannot find entity in mapping
+Scotch_Tape: cannot find entity in mapping
+Non-stick_surface: cannot find entity in mapping
+Duplicating_machines: cannot find entity in mapping
+Food_dehydrator: cannot find entity in mapping
+Tasse_à_café: cannot find entity in mapping
+Stationery_cabinet: cannot find entity in mapping
+Stemware: cannot find entity in mapping
+Laser_pointer: cannot find entity in mapping
+Atari_TT030: cannot find entity in mapping
+Motion_controller: cannot find entity in mapping
+French_tian: cannot find entity in mapping
+Drive_bay: cannot find entity in mapping
+Programma_101: cannot find entity in mapping
+Docking_station: cannot find entity in mapping
+Commodity_computing: cannot find entity in mapping
+Model_K: cannot find entity in mapping
+Bento: cannot find entity in mapping
+Pressure-sensitive_tape: cannot find entity in mapping
+Philips_:YES: cannot find entity in mapping
+Breweriana: cannot find entity in mapping
+Bedourie_oven: cannot find entity in mapping
+Chocolate_fountain: cannot find entity in mapping
+Novint_Technologies: cannot find entity in mapping
+Breville: cannot find entity in mapping
+Turbo_button: cannot find entity in mapping
+Tipp-Ex: cannot find entity in mapping
+Presentation_folder: cannot find entity in mapping
+TWAIN: cannot find entity in mapping
+Le_Chasseur: cannot find entity in mapping
+ISO_216: cannot find entity in mapping
+Apple_Mouse: cannot find entity in mapping
+Filofax: cannot find entity in mapping
+Cocktail_umbrella: cannot find entity in mapping
+Tagged_queuing: cannot find entity in mapping
+Amstrad_PCW: cannot find entity in mapping
+Biscuit_tin: cannot find entity in mapping
+Reprography: cannot find entity in mapping
+Neural_Impulse_Actuator: cannot find entity in mapping
+Plug_and_play: cannot find entity in mapping
+Paila: cannot find entity in mapping
+LINK_480Z: cannot find entity in mapping
+IP_PBX: cannot find entity in mapping
+Beanpot: cannot find entity in mapping
+Hardware_random_number_generator: cannot find entity in mapping
+Korg_PadKontrol: cannot find entity in mapping
+History_of_personal_computers: cannot find entity in mapping
+SES-2_Enclosure_Management: cannot find entity in mapping
+All-Clad: cannot find entity in mapping
+Food_rotation_system: cannot find entity in mapping
+Lemon_squeezer: cannot find entity in mapping
+Duplex_scanning: cannot find entity in mapping
+Konica_Minolta_OpenAPI: cannot find entity in mapping
+Hazel-Atlas_Glass_Company: cannot find entity in mapping
+Manila_folder: cannot find entity in mapping
+West_Bridge: cannot find entity in mapping
+Home_canning: cannot find entity in mapping
+Coffee_cup_sleeve: cannot find entity in mapping
+Drink_carrier: cannot find entity in mapping
+Cousances: cannot find entity in mapping
+Olivetti_M19: cannot find entity in mapping
+Nyotaimori: cannot find entity in mapping
+Letter_(paper_size): cannot find entity in mapping
+Ciborium_(container): cannot find entity in mapping
+Optical_mouse: cannot find entity in mapping
+Formula_calculator: cannot find entity in mapping
+Fujitsu_Micro_16s: cannot find entity in mapping
+Wang_Laboratories: cannot find entity in mapping
+Lenovo_UltraBay: cannot find entity in mapping
+Dynamic_device_mapping: cannot find entity in mapping
+Brabantia: cannot find entity in mapping
+Display_Control_Channel: cannot find entity in mapping
+Springform_pan: cannot find entity in mapping
+Open_Core_Protocol: cannot find entity in mapping
+American_Food_Processor: cannot find entity in mapping
+Saucier: cannot find entity in mapping
+Volcano_bowl: cannot find entity in mapping
+Bungee_chair: cannot find entity in mapping
+Clipboard: cannot find entity in mapping
+Splayd: cannot find entity in mapping
+Trongs: cannot find entity in mapping
+Acorn_A7000: cannot find entity in mapping
+Jue_(vessel): cannot find entity in mapping
+Heated_roll_laminator: cannot find entity in mapping
+Embossing_tape: cannot find entity in mapping
+Comparison_of_consumer_brain–computer_interfaces: cannot find entity in mapping
+IMKO-1: cannot find entity in mapping
+Epson_QX-10: cannot find entity in mapping
+Promethean_World: cannot find entity in mapping
+SWEEPNIK: cannot find entity in mapping
+Digital_paper: cannot find entity in mapping
+Tyg: cannot find entity in mapping
+Taylor_&_Ng: cannot find entity in mapping
+Rainbow_100: cannot find entity in mapping
+Cassolette: cannot find entity in mapping
+Sord_M23P: cannot find entity in mapping
+Silver_claret_jug: cannot find entity in mapping
+New_Zealand_standard_for_school_stationery: cannot find entity in mapping
+Letter-quality_printer: cannot find entity in mapping
+Interactive_whiteboard: cannot find entity in mapping
+Arabia_(brand): cannot find entity in mapping
+Compatibility_card: cannot find entity in mapping
+Toleware: cannot find entity in mapping
+Capacitive_sensing: cannot find entity in mapping
+Multifunction_printer: cannot find entity in mapping
+Caquelon: cannot find entity in mapping
+Dataprobe: cannot find entity in mapping
+E-card: cannot find entity in mapping
+GRiDPad: cannot find entity in mapping
+Wet_grinder: cannot find entity in mapping
+Mérode_Cup: cannot find entity in mapping
+Paper_Mate: cannot find entity in mapping
+Desk_pad: cannot find entity in mapping
+Sunbeam_Products: cannot find entity in mapping
+Xerox_820: cannot find entity in mapping
+Kaypro: cannot find entity in mapping
+Euro_calculator: cannot find entity in mapping
+Calculator_input_methods: cannot find entity in mapping
+Fostoria_Glass_Company: cannot find entity in mapping
+Trudeau_Corporation: cannot find entity in mapping
+Data_General-One: cannot find entity in mapping
+Mac_Mini: cannot find entity in mapping
+Psion_Wavefinder: cannot find entity in mapping
+Imperial_Eagle_beaker: cannot find entity in mapping
+Nettop: cannot find entity in mapping
+Amiga: cannot find entity in mapping
+Half-keyboard: cannot find entity in mapping
+Film_scanner: cannot find entity in mapping
+Hefty: cannot find entity in mapping
+Stanley_bottle: cannot find entity in mapping
+Osborne_1: cannot find entity in mapping
+Cyber_Snipa: cannot find entity in mapping
+Electric_pen: cannot find entity in mapping
+Homebuilt_computer: cannot find entity in mapping
+Caroma: cannot find entity in mapping
+Graffiti_(Palm_OS): cannot find entity in mapping
+Ronco: cannot find entity in mapping
+Touchatag: cannot find entity in mapping
+Merlin_M4000: cannot find entity in mapping
+Spindle_(stationery): cannot find entity in mapping
+PC_Open_Architecture_Developers'_Group: cannot find entity in mapping
+Auto-configuration: cannot find entity in mapping
+Mir:ror: cannot find entity in mapping
+Beverage_opener: cannot find entity in mapping
+FlashPath: cannot find entity in mapping
+Sunbeam_Australia: cannot find entity in mapping
+Memjet: cannot find entity in mapping
+LOMAK: cannot find entity in mapping
+CorningWare: cannot find entity in mapping
+Collins_glass: cannot find entity in mapping
+Sumlock_ANITA_calculator: cannot find entity in mapping
+Digital_pen: cannot find entity in mapping
+Actrix_(computer): cannot find entity in mapping
+SnappyVideoSnapshot: cannot find entity in mapping
+Aster_CT-80: cannot find entity in mapping
+Orbita_mouse: cannot find entity in mapping
+Rotational_mouse: cannot find entity in mapping
+Atari_ST: cannot find entity in mapping
+Canaton: cannot find entity in mapping
+Ultra-low-cost_personal_computer: cannot find entity in mapping
+Iskra-1030: cannot find entity in mapping
+Anthora: cannot find entity in mapping
+Berkemeyer: cannot find entity in mapping
+Postal_stationery: cannot find entity in mapping
+Syracuse_China: cannot find entity in mapping
+Treasury_tag: cannot find entity in mapping
+Carvery: cannot find entity in mapping
+Thermal_bag: cannot find entity in mapping
+Food_storage_container: cannot find entity in mapping
+Emile_Henry_(ceramic): cannot find entity in mapping
+Quaich: cannot find entity in mapping
+Piyāla: cannot find entity in mapping
+Compliments_slip: cannot find entity in mapping
+Kenwood_Limited: cannot find entity in mapping
+Alcarraza: cannot find entity in mapping
+Dorf_Clark_Industries: cannot find entity in mapping
+Khodynka_Cup_of_Sorrows: cannot find entity in mapping
+Blade_PC: cannot find entity in mapping
+Spife: cannot find entity in mapping
+Lobster_pick: cannot find entity in mapping
+Crab_cracker: cannot find entity in mapping
+Double_spout_and_bridge_vessel: cannot find entity in mapping
+Stirrup_spout_vessel: cannot find entity in mapping
+Diary_(stationery): cannot find entity in mapping
+White_box_(computer_hardware): cannot find entity in mapping
+Lefax: cannot find entity in mapping
+Videotelephony: cannot find entity in mapping
+Kinect: cannot find entity in mapping
+Cezve: cannot find entity in mapping
+Jerky_gun: cannot find entity in mapping
+Logitech_Thunderpad_Digital: cannot find entity in mapping
+Rotary_storage: cannot find entity in mapping
+Mobile_shelving: cannot find entity in mapping
+PC_power_management: cannot find entity in mapping
+Al_fresco_dining: cannot find entity in mapping
+Royal_Mail_rubber_band: cannot find entity in mapping
+Hamilton_Beach_Brands: cannot find entity in mapping
+Philips: cannot find entity in mapping
+Bauer_Pottery: cannot find entity in mapping
+HP_110: cannot find entity in mapping
+Quiet_PC: cannot find entity in mapping
+Heliodisplay: cannot find entity in mapping
+Splatter_guard: cannot find entity in mapping
+Voiture_trolley: cannot find entity in mapping
+Airline_meal: cannot find entity in mapping
+Jia_(vessel): cannot find entity in mapping
+Fusion-io: cannot find entity in mapping
+Oxford_Papershow: cannot find entity in mapping
+Sterilite: cannot find entity in mapping
+Sir_Rory_Mor's_Horn: cannot find entity in mapping
+Dial_box: cannot find entity in mapping
+FibreTech_Innovations: cannot find entity in mapping
+Beaker_(drinkware): cannot find entity in mapping
+Potjiekos: cannot find entity in mapping
+Food_presentation: cannot find entity in mapping
+Microcomputer_revolution: cannot find entity in mapping
+Luidia,_Inc.: cannot find entity in mapping
+Napkin_PC: cannot find entity in mapping
+Pointing_device: cannot find entity in mapping
+Nieco: cannot find entity in mapping
+Hybrid_drive: cannot find entity in mapping
+Porron: cannot find entity in mapping
+Apple_IIGS: cannot find entity in mapping
+Stylus_(computing): cannot find entity in mapping
+Sporf: cannot find entity in mapping
+Toner_cartridge: cannot find entity in mapping
+Blade_grinder: cannot find entity in mapping
+The_HON_Company: cannot find entity in mapping
+Picnic_basket: cannot find entity in mapping
+House_dish: cannot find entity in mapping
+In_a_basket: cannot find entity in mapping
+Dribble_glass: cannot find entity in mapping
+Intel_Viiv: cannot find entity in mapping
+Finger_tracking: cannot find entity in mapping
+Iced_tea_spoon: cannot find entity in mapping
+Reverse_DDM: cannot find entity in mapping
+Thermal_cooking: cannot find entity in mapping
+Miburi: cannot find entity in mapping
+Springback_binder: cannot find entity in mapping
+Guksi: cannot find entity in mapping
+Registered_fax: cannot find entity in mapping
+Logitech_G27: cannot find entity in mapping
+Sufuria: cannot find entity in mapping
+Raku_ware: cannot find entity in mapping
+Legacy-free_PC: cannot find entity in mapping
+Liquid_Paper: cannot find entity in mapping
+Landers,_Frary_&_Clark: cannot find entity in mapping
+Calculated_Industries: cannot find entity in mapping
+ScanManager: cannot find entity in mapping
+Skinput: cannot find entity in mapping
+Wonder_Pot: cannot find entity in mapping
+Wired_glove: cannot find entity in mapping
+Welsh_dresser: cannot find entity in mapping
+3D_scanner: cannot find entity in mapping
+Noctua_(company): cannot find entity in mapping
+Table-glass: cannot find entity in mapping
+All-Steel_Equipment_Company: cannot find entity in mapping
+IPAQ_(desktop_computer): cannot find entity in mapping
+Seasoning_(cookware): cannot find entity in mapping
+Drinking_horn: cannot find entity in mapping
+Controller-free_motion_control: cannot find entity in mapping
+Hipster_PDA: cannot find entity in mapping
+CHROMA_Cnife: cannot find entity in mapping
+Zoomed_video_port: cannot find entity in mapping
+Floppy_disk_hardware_emulator: cannot find entity in mapping
+Kenwood_Chef: cannot find entity in mapping
+Chip_pan: cannot find entity in mapping
+Lincat: cannot find entity in mapping
+Sinclair_QL: cannot find entity in mapping
+Tape_dispenser: cannot find entity in mapping
+Voice_Navigator: cannot find entity in mapping
+Keyboard_controller_(computing): cannot find entity in mapping
+Iroquois_China_Company: cannot find entity in mapping
+Financial_calculator: cannot find entity in mapping
+Safir_Office_Machines_Museum: cannot find entity in mapping
+Touchpad: cannot find entity in mapping
+Canon_Cat: cannot find entity in mapping
+Hot_swapping: cannot find entity in mapping
+History_of_tablet_computers: cannot find entity in mapping
+Sign_language_glove: cannot find entity in mapping
+Beige_box: cannot find entity in mapping
+Bute_mazer: cannot find entity in mapping
+Smartwatch: cannot find entity in mapping
+Tape_Wrangler: cannot find entity in mapping
+Circulon: cannot find entity in mapping
+Comparison_of_software_calculators: cannot find entity in mapping
+Sharp_QT-8D: cannot find entity in mapping
+Le_Creuset: cannot find entity in mapping
+Microsoft_Tablet_PC: cannot find entity in mapping
+Sharp_QT-8B: cannot find entity in mapping
+CyKey: cannot find entity in mapping
+FaceVsion: cannot find entity in mapping
+Acer_Aspire_Notebook: cannot find entity in mapping
+Acer_Aspire_Desktop: cannot find entity in mapping
+Grace_Cup: cannot find entity in mapping
+Planetary_scanner: cannot find entity in mapping
+Calculator_spelling: cannot find entity in mapping
+Hyperion_(computer): cannot find entity in mapping
+Dallah_(coffee_pot): cannot find entity in mapping
+Jug_in_the_form_of_a_Head,_Self-portrait: cannot find entity in mapping
+Optical_trackpad: cannot find entity in mapping
+UDraw_GameTablet: cannot find entity in mapping
+Punched_pocket: cannot find entity in mapping
+Cellarette: cannot find entity in mapping
+One_Per_Desk: cannot find entity in mapping
+Comparison_of_hardware_random_number_generators: cannot find entity in mapping
+Knife_(envelope): cannot find entity in mapping
+Tiffin_carrier: cannot find entity in mapping
+Atari_MEGA_STE: cannot find entity in mapping
+Haptic_technology: cannot find entity in mapping
+Datasheet: cannot find entity in mapping
+Duke_Manufacturing_Company: cannot find entity in mapping
+Compis: cannot find entity in mapping
+Thermos_L.L.C.: cannot find entity in mapping
+Tiki_mugs: cannot find entity in mapping
+Fold-Pak: cannot find entity in mapping
+KCalc: cannot find entity in mapping
+High_brightness_monitor: cannot find entity in mapping
+Visual_1050: cannot find entity in mapping
+Telautograph: cannot find entity in mapping
+ABC_1600: cannot find entity in mapping
+Kujiejun: cannot find entity in mapping
+HP_Open_Extensibility_Platform_(OXP): cannot find entity in mapping
+Silent_service_code: cannot find entity in mapping
+Chalkboard_eraser: cannot find entity in mapping
+Letter_scale: cannot find entity in mapping
+Tea_stove: cannot find entity in mapping
+Dust-Off: cannot find entity in mapping
+Datapoint_2200: cannot find entity in mapping
+Office_chair: cannot find entity in mapping
+Plated_ware: cannot find entity in mapping
+Robotic_book_scanner: cannot find entity in mapping
+Jockey_box: cannot find entity in mapping
+Facial_motion_capture: cannot find entity in mapping
+Nowy_Styl_Group: cannot find entity in mapping
+Knork: cannot find entity in mapping
+HP_Universal_Print_Driver: cannot find entity in mapping
+Armudu: cannot find entity in mapping
+RAND_Tablet: cannot find entity in mapping
+Noggin_(cup): cannot find entity in mapping
+HP_FutureSmart_firmware: cannot find entity in mapping
+Pure_Storage: cannot find entity in mapping
+Monome: cannot find entity in mapping
+Commodore_USA: cannot find entity in mapping
+SSD_europe: cannot find entity in mapping
+HP_ePrint: cannot find entity in mapping
+Cuisinart: cannot find entity in mapping
+Emsa_(Household_goods): cannot find entity in mapping
+PC532: cannot find entity in mapping
+Kovsh: cannot find entity in mapping
+Clamshell_(container): cannot find entity in mapping
+Caviar_spoon: cannot find entity in mapping
+Marmite_(cooking_dish): cannot find entity in mapping
+Franciscan_Ceramics: cannot find entity in mapping
+Laptop_charging_trolley: cannot find entity in mapping
+Cast-iron_cookware: cannot find entity in mapping
+Transcription_machine: cannot find entity in mapping
+EBeam: cannot find entity in mapping
+Windermere_kettle: cannot find entity in mapping
+Pacific_Clay: cannot find entity in mapping
+Daughterboard: cannot find entity in mapping
+Le_Déjeuner_en_fourrure: cannot find entity in mapping
+Rice_pounder: cannot find entity in mapping
+Thomson_MO6: cannot find entity in mapping
+Mimio: cannot find entity in mapping
+Puzzle_jug: cannot find entity in mapping
+Fuddling_cup: cannot find entity in mapping
+CST_Thor: cannot find entity in mapping
+DDP-24: cannot find entity in mapping
+Tastet: cannot find entity in mapping
+EDGE_Tech: cannot find entity in mapping
+Lawyers_bodkin: cannot find entity in mapping
+Bone_dish: cannot find entity in mapping
+Doel_(computer): cannot find entity in mapping
+Skull_cup: cannot find entity in mapping
+Roasting_pan: cannot find entity in mapping
+Autodetection: cannot find entity in mapping
+Due_Ancore: cannot find entity in mapping
+Couscoussier: cannot find entity in mapping
+Commodore_1351: cannot find entity in mapping
+Omnitouch: cannot find entity in mapping
+Yunomi: cannot find entity in mapping
+Rice_polisher: cannot find entity in mapping
+Salad_spinner: cannot find entity in mapping
+Compaq_Presario_2200: cannot find entity in mapping
+Flav-R-Straws: cannot find entity in mapping
+Wonderbag: cannot find entity in mapping
+Kaminario: cannot find entity in mapping
+Reckoning_board: cannot find entity in mapping
+KitchenAid: cannot find entity in mapping
+Wearever_Cookware: cannot find entity in mapping
+Home_network: cannot find entity in mapping
+Pacojet: cannot find entity in mapping
+Charger_(table_setting): cannot find entity in mapping
+Silver_service: cannot find entity in mapping
+Ergonomic_keyboard: cannot find entity in mapping
+IRCF360: cannot find entity in mapping
+World_Kitchen: cannot find entity in mapping
+Oyster_pail: cannot find entity in mapping
+Sensorium_Project: cannot find entity in mapping
+Frame_grabber: cannot find entity in mapping
+Crumber: cannot find entity in mapping
+Neon_message_board: cannot find entity in mapping
+Chork: cannot find entity in mapping
+Ofoto_(scanner_software): cannot find entity in mapping
+Chester_Carlson: cannot find entity in mapping
+Camera_module: cannot find entity in mapping
+Leap_Motion: cannot find entity in mapping
+Safetray: cannot find entity in mapping
+Telikin: cannot find entity in mapping
+Device_Bay: cannot find entity in mapping
+Post-PC_era: cannot find entity in mapping
+IdeaPaint: cannot find entity in mapping
+Trade_card: cannot find entity in mapping
+Rhyton: cannot find entity in mapping
+Vacuum_filler: cannot find entity in mapping
+Cloche_(tableware): cannot find entity in mapping
+Duralex_Picardie: cannot find entity in mapping
+HP_series_80: cannot find entity in mapping
+Antimonial_cup: cannot find entity in mapping
+Rice_cooker: cannot find entity in mapping
+Proctor_Silex: cannot find entity in mapping
+Rada_Manufacturing: cannot find entity in mapping
+Calculator_(Mac_OS): cannot find entity in mapping
+Franklin_Planner: cannot find entity in mapping
+Gaming_computer: cannot find entity in mapping
+Bear-resistant_food_storage_container: cannot find entity in mapping
+Flagstaff_House: cannot find entity in mapping
+Black_n'_Red: cannot find entity in mapping
+Electric_knife: cannot find entity in mapping
+Motion_capture: cannot find entity in mapping
+Tazza: cannot find entity in mapping
+Sabatier: cannot find entity in mapping
+Aluminum_can: cannot find entity in mapping
+FIC_Conectado: cannot find entity in mapping
+Muffin_tin: cannot find entity in mapping
+Proprietary_hardware: cannot find entity in mapping
+Radio_SHARK: cannot find entity in mapping
+Royal_Doulton: cannot find entity in mapping
+Gaiwan: cannot find entity in mapping
+Service_à_la_russe: cannot find entity in mapping
+Remote_Terminal_Unit: cannot find entity in mapping
+Box_wine: cannot find entity in mapping
+Tablet_computer: cannot find entity in mapping
+Ultra-mobile_PC: cannot find entity in mapping
+Brass_fastener: cannot find entity in mapping
+Smart_Board: cannot find entity in mapping
+Napkin_holder: cannot find entity in mapping
+Elka_22: cannot find entity in mapping
+Friden,_Inc.: cannot find entity in mapping
+Immersion_blender: cannot find entity in mapping
+Western_Digital_Media_Center: cannot find entity in mapping
+Action_Office: cannot find entity in mapping
+Pioneer_BDR-101A: cannot find entity in mapping
+Glass_rimmer: cannot find entity in mapping
+Esselte: cannot find entity in mapping
+Cocktail_strainer: cannot find entity in mapping
+Scientific_calculator: cannot find entity in mapping
+Address_book: cannot find entity in mapping
+Zenith_Z-89: cannot find entity in mapping
+Monroe_Calculator_Company: cannot find entity in mapping
+MikroMikko: cannot find entity in mapping
+Burroughs_Corporation: cannot find entity in mapping
+Port_expander: cannot find entity in mapping
+Kilner_jar: cannot find entity in mapping
+Grole: cannot find entity in mapping
+Mac286: cannot find entity in mapping
+TIM-100: cannot find entity in mapping
+Bodum: cannot find entity in mapping
+Sord_IS-11: cannot find entity in mapping
+Tupperware: cannot find entity in mapping
+TIM-011: cannot find entity in mapping
+Lola_8: cannot find entity in mapping
+Sake_set: cannot find entity in mapping
+Whiteboard: cannot find entity in mapping
+Galeb_(computer): cannot find entity in mapping
+Orao_(computer): cannot find entity in mapping
+Ivel_Ultra: cannot find entity in mapping
+Ivel_Z3: cannot find entity in mapping
+Pravetz_computers: cannot find entity in mapping
+Mottahedeh_&_Company: cannot find entity in mapping
+Thrustmaster: cannot find entity in mapping
+Correction_tape: cannot find entity in mapping
+Correction_fluid: cannot find entity in mapping
+Thali: cannot find entity in mapping
+BeBox: cannot find entity in mapping
+Pressure-sensitive_adhesive: cannot find entity in mapping
+Metlox_Pottery: cannot find entity in mapping
+Adapter_(computing): cannot find entity in mapping
+Automatic_document_feeder: cannot find entity in mapping
+Gastronorm_sizes: cannot find entity in mapping
+Machinist_calculator: cannot find entity in mapping
+Stored_energy_printer: cannot find entity in mapping
+Wite-Out: cannot find entity in mapping
+Chawan: cannot find entity in mapping
+Chaki: cannot find entity in mapping
+Kama_(Japanese_tea_ceremony): cannot find entity in mapping
+Point-and-shoot_interface: cannot find entity in mapping
+Correction_paper: cannot find entity in mapping
+Old_Fashioned_glass: cannot find entity in mapping
+Buchla_Thunder: cannot find entity in mapping
+Pony_glass: cannot find entity in mapping
+Lunch_box: cannot find entity in mapping
+Jog_dial: cannot find entity in mapping
+Pipkin: cannot find entity in mapping
+IOMMU: cannot find entity in mapping
+Veg-O-Matic: cannot find entity in mapping
+Tea_draining_tray: cannot find entity in mapping
+System_monitor: cannot find entity in mapping
+Atari_Falcon: cannot find entity in mapping
+Nanteos_Cup: cannot find entity in mapping
+Comparison_of_Macintosh_models: cannot find entity in mapping
+Tunc: cannot find entity in mapping
+LaserWriter: cannot find entity in mapping
+Derwent_Cumberland_Pencil_Company: cannot find entity in mapping
+Drive_letter_assignment: cannot find entity in mapping
+Logic_Control: cannot find entity in mapping
+Toner: cannot find entity in mapping
+Edinburgh_Crystal: cannot find entity in mapping
+Tefal: cannot find entity in mapping
+Expensive_Desk_Calculator: cannot find entity in mapping
+Toast_rack: cannot find entity in mapping
+Foolscap_folio: cannot find entity in mapping
+Pfaltzgraff: cannot find entity in mapping
+Sittning: cannot find entity in mapping
+Envelope: cannot find entity in mapping
+Office_supplies: cannot find entity in mapping
+Lodge_(company): cannot find entity in mapping
+ABC_800: cannot find entity in mapping
+Ringlemere_Cup: cannot find entity in mapping
+Enthusiast_computing: cannot find entity in mapping
+Pointer_(rod): cannot find entity in mapping
+EVO_Smart_Console: cannot find entity in mapping
+IMSAI_8080: cannot find entity in mapping
+Bread_bowl: cannot find entity in mapping
+Grande_Baroque: cannot find entity in mapping
+Calculator_(Windows): cannot find entity in mapping
+RiscPC: cannot find entity in mapping
+TV_tuner_card: cannot find entity in mapping
+Lenox_(company): cannot find entity in mapping
+Mouse_keys: cannot find entity in mapping
+French_butter_dish: cannot find entity in mapping
+Acorn_Archimedes: cannot find entity in mapping
+CueCat: cannot find entity in mapping
+Cordata_CS40: cannot find entity in mapping
+Samples_per_inch: cannot find entity in mapping
+Nef_(metalwork): cannot find entity in mapping
+Cocktail_glass: cannot find entity in mapping
+Thermofax: cannot find entity in mapping
+Océ: cannot find entity in mapping
+Cataplana: cannot find entity in mapping
+Bondwell: cannot find entity in mapping
+Service_à_la_française: cannot find entity in mapping
+USB_phone: cannot find entity in mapping
+Anoto: cannot find entity in mapping
+POST_card: cannot find entity in mapping
+Pocket_PC: cannot find entity in mapping
+Divisumma_18: cannot find entity in mapping
+Tyrone_Crystal: cannot find entity in mapping
+Elektronika_MK-18M: cannot find entity in mapping
+Magic_mug: cannot find entity in mapping
+FM_Towns: cannot find entity in mapping
+Timex_FDD3000: cannot find entity in mapping
+Chatcord: cannot find entity in mapping
+Lagostina: cannot find entity in mapping
+Solid-state_drive: cannot find entity in mapping
+Pythagorean_cup: cannot find entity in mapping
+Steve_Jobs: cannot find entity in mapping
+Hole_punch: cannot find entity in mapping
+Canon_Palmtronic_LE-80M: cannot find entity in mapping
+Industrial_PC: cannot find entity in mapping
+Magic_Bullet_(appliance): cannot find entity in mapping
+Iittala: cannot find entity in mapping
+Arzberg_porcelain: cannot find entity in mapping
+Zipper_storage_bag: cannot find entity in mapping
+Professional_organizing: cannot find entity in mapping
+Apple_Lisa: cannot find entity in mapping
+Xerox_Alto: cannot find entity in mapping
+Dualit: cannot find entity in mapping
+Inkjet_refill_kit: cannot find entity in mapping
+Absinthiana: cannot find entity in mapping
+Graphics_tablet: cannot find entity in mapping
+Microplane: cannot find entity in mapping
+Sharp_EL-8: cannot find entity in mapping
+Paper_shredder: cannot find entity in mapping
+Binder_clip: cannot find entity in mapping
+Digital_dictation: cannot find entity in mapping
+Blendtec: cannot find entity in mapping
+Packed_lunch: cannot find entity in mapping
+Chopstick_rest: cannot find entity in mapping
+Logitech_G25: cannot find entity in mapping
+3DO_Blaster: cannot find entity in mapping
+Parallel_Peripheral_Interface: cannot find entity in mapping
+Crustastun: cannot find entity in mapping
+Caddy_spoon: cannot find entity in mapping
+Smaky: cannot find entity in mapping
+Pie_bird: cannot find entity in mapping
+Minicom_Advanced_Systems: cannot find entity in mapping
+Roland_MPU-IPC-T: cannot find entity in mapping
+Nashuatec: cannot find entity in mapping
+Tepak_Sireh: cannot find entity in mapping
+Cup_plate: cannot find entity in mapping
+Podstakannik: cannot find entity in mapping
+Research_Machines_380Z: cannot find entity in mapping
+Demitasse: cannot find entity in mapping
+Tea_strainer: cannot find entity in mapping
+Vitrolero: cannot find entity in mapping
+Pouch_laminator: cannot find entity in mapping
+Osborne_Executive: cannot find entity in mapping
+Moleskine: cannot find entity in mapping
+Friendship_cup: cannot find entity in mapping
+Paddle_(game_controller): cannot find entity in mapping
+Commodore_PET: cannot find entity in mapping
+De'Longhi: cannot find entity in mapping
+Direct_voice_input: cannot find entity in mapping
+Solander_box: cannot find entity in mapping
+Corelle: cannot find entity in mapping
+The_Pampered_Chef: cannot find entity in mapping
+Home_theater_PC: cannot find entity in mapping
+Olla: cannot find entity in mapping
+Griffin_PowerMate: cannot find entity in mapping
+Letter_sheet: cannot find entity in mapping
+W_ABC: cannot find entity in mapping
+Wang_2200: cannot find entity in mapping
+Manual_pulse_generator: cannot find entity in mapping
+Pee_Chee_folder: cannot find entity in mapping
+Gravis_Ultrasound: cannot find entity in mapping
+Penny_lick: cannot find entity in mapping
+Sharp_EL-500W_series: cannot find entity in mapping
+Danka_(copier_supplier): cannot find entity in mapping
+Brustolina: cannot find entity in mapping
+Public_computer: cannot find entity in mapping
+Expo_Mimio: cannot find entity in mapping
+Home_server: cannot find entity in mapping
+Dishmaker: cannot find entity in mapping
+StyleWriter: cannot find entity in mapping
+Pyramis: cannot find entity in mapping
+Sippy_cup: cannot find entity in mapping
+Sipahh: cannot find entity in mapping
+Bag-in-box: cannot find entity in mapping
+Bottling_line: cannot find entity in mapping
+Eating_utensil_etiquette: cannot find entity in mapping
+Teaware: cannot find entity in mapping
+MSN_Companion: cannot find entity in mapping
+Concord_Supplies: cannot find entity in mapping
+Zyliss: cannot find entity in mapping
+IBM_FlashSystem: cannot find entity in mapping
+Sydney_punchbowls: cannot find entity in mapping
+Swiss_Diamond_International: cannot find entity in mapping
+Durable: cannot find entity in mapping
+Gus_Crystal: cannot find entity in mapping
+Wind_&_Willow_Home: cannot find entity in mapping
+Centrepiece: cannot find entity in mapping
+Wireless_keyboard: cannot find entity in mapping
+Weck_jar: cannot find entity in mapping
+Fowler's_Vacola: cannot find entity in mapping
+Drawdown_chart: cannot find entity in mapping
+Mouse_tracking: cannot find entity in mapping
+Small_plates: cannot find entity in mapping
+P535: cannot find entity in mapping
+Patravali: cannot find entity in mapping
+Starch_mogul: cannot find entity in mapping
+Fish_kettle: cannot find entity in mapping
+Fire-King: cannot find entity in mapping
+FM-11: cannot find entity in mapping
+Rackmount_KVM: cannot find entity in mapping
+Project_Digits: cannot find entity in mapping
+Heavy_baluster_glass: cannot find entity in mapping
+Doxie: cannot find entity in mapping
+Multicooker: cannot find entity in mapping
+All-you-can-eat_seats: cannot find entity in mapping
+Lenovo_IdeaTab_Lynx: cannot find entity in mapping
+Hurricane_glass: cannot find entity in mapping
+Olivetti_P6060: cannot find entity in mapping
+Tapari: cannot find entity in mapping
+Wenlok_jug: cannot find entity in mapping
+Koozie: cannot find entity in mapping
+Laplet: cannot find entity in mapping
+Bluetooth_keyboard: cannot find entity in mapping
+Marchant_calculator: cannot find entity in mapping
+Smart_Wall_Paint: cannot find entity in mapping
+Platter_(dinner): cannot find entity in mapping
+GNOME_Calculator: cannot find entity in mapping
+HP_9845C: cannot find entity in mapping
+Cold_roll_laminator: cannot find entity in mapping
+ELKA: cannot find entity in mapping
+Water-jet_printer: cannot find entity in mapping
+Kantsi_(horn): cannot find entity in mapping
+Addis_Housewares: cannot find entity in mapping
+Bosto_Kingtee: cannot find entity in mapping
+Grabit_(cookware): cannot find entity in mapping
+ULLtraDIMM: cannot find entity in mapping
+Penveu: cannot find entity in mapping
+Bratt_pan: cannot find entity in mapping
+Alessi_(Italian_company): cannot find entity in mapping
+Durango_F85: cannot find entity in mapping
+Kenco_Singles: cannot find entity in mapping
+Cemar_Clay_Products: cannot find entity in mapping
+Staub_(cookware): cannot find entity in mapping
+HP_9800_series: cannot find entity in mapping
+Chromebox: cannot find entity in mapping
+The_Armada_Service: cannot find entity in mapping
+Project_Morpheus_(virtual_reality): cannot find entity in mapping
+Cornishware: cannot find entity in mapping
+Airline_service_trolley: cannot find entity in mapping
+Great_Wall_0520CH: cannot find entity in mapping
+Paper_cup_forming_machine: cannot find entity in mapping
+Tickler_file: cannot find entity in mapping
+Glencairn_whisky_glass: cannot find entity in mapping
+Joseph_Joseph: cannot find entity in mapping
+Embossing_mat: cannot find entity in mapping
+Lumitrack: cannot find entity in mapping
+Purdue_Improved_Crop_Storage_(PICS)_bags: cannot find entity in mapping
+Market_share_of_personal_computer_vendors: cannot find entity in mapping
+Active_pen: cannot find entity in mapping
+CrossPad: cannot find entity in mapping
+Teabox: cannot find entity in mapping
+Napkin_ring: cannot find entity in mapping
+Smartglasses: cannot find entity in mapping
+Kvevri: cannot find entity in mapping
+Copying_pencil: cannot find entity in mapping
+Air_conditioning: cannot find entity in mapping
+Synset('beverage.n.01'): entity already abstract enough
+Can_opener-implement-n#1-n: cannot find DBpedia correspondence
+Synset('coffee.n.01'): entity already abstract enough
+Dutch_oven-implement-n#1-n: cannot find DBpedia correspondence
+Dutch_oven-utensil-n#1-n: cannot find DBpedia correspondence
+Synset('hood.n.06'): entity already abstract enough
+Half_and_half-dairy+product-n#1-n: cannot find DBpedia correspondence
+Matchbook-folder-n#2-n: cannot find DBpedia correspondence
+Milkshake-drink-n#1-n: cannot find DBpedia correspondence
+AGA_cooker: cannot find entity in mapping
+Box_mangle: cannot find entity in mapping
+Reflector_oven: cannot find entity in mapping
+Go-to-bed_matchbox: cannot find entity in mapping
+Humidifier: cannot find entity in mapping
+Kitchener_range: cannot find entity in mapping
+Gas_Mark: cannot find entity in mapping
+Kimchi_refrigerator: cannot find entity in mapping
+Wood-fired_oven: cannot find entity in mapping
+Haybox: cannot find entity in mapping
+HSPF: cannot find entity in mapping
+Solar_cooker: cannot find entity in mapping
+Hob_(hearth): cannot find entity in mapping
+Small_appliance: cannot find entity in mapping
+EcoCute: cannot find entity in mapping
+Comparison_of_domestic_robots: cannot find entity in mapping
+Russian_oven: cannot find entity in mapping
+Tabun_oven: cannot find entity in mapping
+Beverage_opener: cannot find entity in mapping
+Back_boiler: cannot find entity in mapping
+Kyoto_box: cannot find entity in mapping
+Central_vacuum_cleaner: cannot find entity in mapping
+Dehumidifier: cannot find entity in mapping
+Robotic_vacuum_cleaner: cannot find entity in mapping
+Dish_draining_closet: cannot find entity in mapping
+Wig_wag_(washing_machines): cannot find entity in mapping
+Thor_washing_machine: cannot find entity in mapping
+Drawer_dishwasher: cannot find entity in mapping
+Ironman_(ironing): cannot find entity in mapping
+Ceanothus_americanus: cannot find entity in mapping
+Kimatsu: cannot find entity in mapping
+Appliance_recycling: cannot find entity in mapping
+Egyptian_egg_oven: cannot find entity in mapping
+Gas_appliance: cannot find entity in mapping
+Futon_dryer: cannot find entity in mapping
+Domestic_robot: cannot find entity in mapping
+Earth_oven: cannot find entity in mapping
+Micathermic_heater: cannot find entity in mapping
+Internet_refrigerator: cannot find entity in mapping
+Ettridge_Collection: cannot find entity in mapping
+Appliance_plug: cannot find entity in mapping
+Beverage_industry: cannot find entity in mapping
+Masonry_oven: cannot find entity in mapping
+Communal_oven: cannot find entity in mapping
+Forced-air: cannot find entity in mapping
+Convection_microwave: cannot find entity in mapping
+Relaxation_drink: cannot find entity in mapping
+Flame_supervision_device: cannot find entity in mapping
+Chorkor_oven: cannot find entity in mapping
+Fan_heater: cannot find entity in mapping
+Clome_oven: cannot find entity in mapping
+Window_fan: cannot find entity in mapping
+Smart_drink: cannot find entity in mapping
+Rat_trap: cannot find entity in mapping
+Redheads_(matches): cannot find entity in mapping
+Beehive_oven: cannot find entity in mapping
+Compactor: cannot find entity in mapping
+Tie_press: cannot find entity in mapping
+Air_ioniser: cannot find entity in mapping
+Nabidh: cannot find entity in mapping
+Convection_oven: cannot find entity in mapping
+Convection_heater: cannot find entity in mapping
+Self-cleaning_oven: cannot find entity in mapping
+Electric_water_boiler: cannot find entity in mapping
+Katrina_refrigerator: cannot find entity in mapping
+Patio_heater: cannot find entity in mapping
+Manual_vacuum_cleaner: cannot find entity in mapping
+Combo_washer_dryer: cannot find entity in mapping
+Trivection_oven: cannot find entity in mapping
+Ceiling_fan: cannot find entity in mapping
+Home_server: cannot find entity in mapping
+Ready_to_drink: cannot find entity in mapping
+Instant_breakfast: cannot find entity in mapping
+Sego_(diet_drink): cannot find entity in mapping
+Hydration_with_coconut_water: cannot find entity in mapping
+Icebox: cannot find entity in mapping
+Aroma_lamp: cannot find entity in mapping
+Bachelor_griller: cannot find entity in mapping
+Sweetened_beverage: cannot find entity in mapping
+Thermal_mass_refrigerator: cannot find entity in mapping
+Milo_Dinosaur: cannot find entity in mapping
+Cooker: cannot find entity in mapping
+Bio_fireplace: cannot find entity in mapping
+Internet_Digital_DIOS: cannot find entity in mapping
+DaVinci_Vaporizer: cannot find entity in mapping
+Clothes_steamer: cannot find entity in mapping
+Plug_Ins: cannot find entity in mapping
+Halogen_oven: cannot find entity in mapping
+Es_kelapa_muda: cannot find entity in mapping
+Sekoteng: cannot find entity in mapping
+Napkin_ring: cannot find entity in mapping
+Smartglasses: cannot find entity in mapping
+Kvevri: cannot find entity in mapping
+Copying_pencil: cannot find entity in mapping
