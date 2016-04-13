@@ -87,7 +87,7 @@ def relatedness(o, objects, method):
 # read NASARI vectors
 vectors = dict()
 frequencies = dict()
-for cat in ['tools', 'rooms', 'furniture']:
+for cat in ['tools', 'rooms', 'furniture', 'abstract']:
     log.info('reading vectors')
     vectors[cat] = dict()
     with open('vectors/{0}_vectors.txt'.format(cat)) as f:
@@ -106,9 +106,10 @@ for cat in ['tools', 'rooms', 'furniture']:
             label = fields[1]
             frequency = eval(fields[0])
             frequencies[cat][label] = frequency
-    # normalizing
-    #m = float(max(frequencies.values()))
-    #frequencies = {k: float(v)/m for k, v in frequencies.items()}
+
+for label, vector in vectors['abstract'].iteritems():
+    vectors['tools'][label]=vector
+
 
 # read abstraction map
 abstraction = dict()
@@ -123,7 +124,7 @@ for i in [6, 7,8,9,10]:
 class guess:
     def POST(self):
         # default values
-        args = web.input(n='10', p='2', m='prod', t='0', a='0')
+        args = web.input(n='10', p='2', m='prod', t='0', a='0', am='after')
         n = eval(args.n)
         proximity = eval(args.p)
         threshold = eval(args.t)
@@ -132,6 +133,10 @@ class guess:
 
         result = []
         for o in vectors['tools'].keys():
+            if args.am == "before":
+                if abstraction_level>0 and o in abstraction[abstraction_level]:
+                    o = abstraction[abstraction_level][o]
+
             r = relatedness(o, labels, method=args.m)
 
             '''if room in vectors['rooms']:
@@ -144,18 +149,27 @@ class guess:
                 surfrel = 0.0
             '''
 
-            if abstraction_level>0 and o in abstraction[abstraction_level]:
-                o = abstraction[abstraction_level][o]
-
             if o in frequencies['tools']:
                 freq = frequencies['tools'][o]
             else:
 	            freq = 0
+
+            if args.am == "after":
+                if abstraction_level>0 and o in abstraction[abstraction_level]:
+                    o = abstraction[abstraction_level][o]
+
             if freq >= threshold:
                 result.append({'object':o, 'relatedness':r, 'frequency':freq})
         result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
 
-        return json.dumps(result_sorted[:n])
+        # filter out duplicates
+        result_unique = []
+        for item in result_sorted:
+            objects = [x['object'] for x in result_unique]
+            if not item['object'] in objects:
+                result_unique.append(item)
+
+        return json.dumps(result_unique[:n])
 
 if __name__ == "__main__":
     app.run()
