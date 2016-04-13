@@ -1,0 +1,133 @@
+{
+    "bounding_box": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ]
+    ], 
+    "centroid": [
+        "-1.07364", 
+        "0.157375", 
+        "1.19766"
+    ], 
+    "co_occurrences": [
+        [
+            "Instant_coffee", 
+            0.38181818181818183, 
+            "near_2"
+        ], 
+        [
+            "Kitchen_side", 
+            1.0, 
+            "near_1"
+        ], 
+        [
+            "Waste_container", 
+            0.4909090909090909, 
+            "near_1"
+        ], 
+        [
+            "Fridge", 
+            0.509090909090909, 
+            "near_2"
+        ], 
+        [
+            "Teabox", 
+            0.2909090909090909, 
+            "near_2"
+        ], 
+        [
+            "Person", 
+            0.03636363636363636, 
+            "near_2"
+        ], 
+        [
+            "Mug", 
+            0.03636363636363636, 
+            "near_2"
+        ], 
+        [
+            "Sugar_bowl_(dishware)", 
+            0.36363636363636365, 
+            "near_2"
+        ], 
+        [
+            "Bottle", 
+            0.05454545454545454, 
+            "near_1"
+        ], 
+        [
+            "Kitchen_cabinet", 
+            1.0, 
+            "near_1"
+        ]
+    ], 
+    "context_history": [
+        [
+            "Kitchen", 
+            1.0, 
+            "Kitchen_counter", 
+            1
+        ], 
+        [
+            "Office", 
+            0.0, 
+            "Desk", 
+            1
+        ]
+    ], 
+    "context_room_label": "Kitchen", 
+    "context_surface_label": "Kitchen_counter", 
+    "local_id": 0, 
+    "local_objects": [
+        [
+            "Instant_coffee", 
+            0.38181818181818183, 
+            "large", 
+            "near_2"
+        ], 
+        [
+            "Waste_container", 
+            0.4909090909090909, 
+            "large", 
+            "near_1"
+        ], 
+        [
+            "Fridge", 
+            0.509090909090909, 
+            "large", 
+            "near_2"
+        ], 
+        [
+            "Teabox", 
+            0.2909090909090909, 
+            "large", 
+            "near_2"
+        ], 
+        [
+            "Sugar_bowl_(dishware)", 
+            0.36363636363636365, 
+            "large", 
+            "near_2"
+        ], 
+        [
+            "Kitchen_cabinet", 
+            1.0, 
+            "large", 
+            "near_1"
+        ]
+    ], 
+    "query_ground_truth": "Microwave_oven", 
+    "size": "large"
+}

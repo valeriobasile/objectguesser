@@ -1,98 +1,97 @@
 {
     "bounding_box": [
         [
-            0, 
-            0, 
+            0,
+            0,
             0
-        ], 
+        ],
         [
-            0, 
-            0, 
+            0,
+            0,
             0
-        ], 
+        ],
         [
-            0, 
-            0, 
+            0,
+            0,
             0
         ]
-    ], 
+    ],
     "centroid": [
-        0, 
-        0, 
+        0,
+        0,
         0
-    ], 
+    ],
     "co_occurrences": [
         [
-            "Sugar_bowl_(dishware)", 
-            1, 
+            "Sugar_bowl_(dishware)",
+            1,
             "near_1"
-        ], 
+        ],
         [
-            "Teabox", 
-            1, 
+            "Teabox",
+            1,
             "near_2"
-        ], 
+        ],
         [
-            "Teacup", 
-            86.14, 
+            "Teacup",
+            86.14,
             "near_2"
-        ], 
+        ],
         [
-            "Mug", 
-            64.14, 
+            "Mug",
+            64.14,
             "near_2"
         ]
-    ], 
+    ],
     "context_history": [
         [
-            "Kitchen", 
-            1, 
-            "Kitchen_counter", 
+            "Kitchen",
+            1,
+            "Countertop",
             1
         ]
-    ], 
-    "context_room_label": "Kitchen", 
-    "context_surface_label": "Kitchen_counter", 
-    "local_id": 0, 
+    ],
+    "context_room_label": "Kitchen",
+    "context_surface_label": "Countertop",
+    "local_id": 0,
     "local_objects": [
         [
-            "Kitchen_cabinet", 
-            1, 
-            "large", 
+            "Kitchen_cabinet",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Sink", 
-            1, 
-            "large", 
+            "Sink",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Sugar_bowl_(dishware)", 
-            1, 
-            "small", 
+            "Sugar_bowl_(dishware)",
+            1,
+            "small",
             "near_1"
-        ], 
+        ],
         [
-            "Teabox", 
-            1, 
-            "medium", 
+            "Teabox",
+            1,
+            "medium",
             "near_1"
-        ], 
+        ],
         [
-            "Kitchen_cabinet", 
-            1, 
-            "large", 
+            "Kitchen_cabinet",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Teacup", 
-            1, 
-            "small", 
+            "Teacup",
+            1,
+            "small",
             "near_1"
         ]
-    ], 
-    "query_ground_truth": "Teapot", 
+    ],
+    "query_ground_truth": "Teapot",
     "size": "large"
 }
-

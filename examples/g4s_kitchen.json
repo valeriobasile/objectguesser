@@ -1,121 +1,120 @@
 {
     "bounding_box": [
         [
-            0, 
-            0, 
+            0,
+            0,
             0
-        ], 
+        ],
         [
-            0, 
-            0, 
+            0,
+            0,
             0
-        ], 
+        ],
         [
-            0, 
-            0, 
+            0,
+            0,
             0
         ]
-    ], 
+    ],
     "centroid": [
-        0, 
-        0, 
+        0,
+        0,
         0
-    ], 
+    ],
     "co_occurrences": [
         [
-            "Keyboard", 
-            70.44, 
+            "Keyboard",
+            70.44,
             "near_1"
-        ], 
+        ],
         [
-            "Computer_monitor", 
-            65.33, 
+            "Computer_monitor",
+            65.33,
             "near_2"
-        ], 
+        ],
         [
-            "Office_chair", 
-            53.31, 
+            "Office_chair",
+            53.31,
             "near_3"
-        ], 
+        ],
         [
-            "Sink", 
-            31.14, 
+            "Sink",
+            31.14,
             "near_2"
-        ], 
+        ],
         [
-            "Electric_water_boiler", 
-            27.94, 
+            "Electric_water_boiler",
+            27.94,
             "near_3"
         ]
-    ], 
+    ],
     "context_history": [
         [
-            "Office", 
-            0.68, 
-            "Desk", 
+            "Office",
+            0.68,
+            "Desk",
             1
-        ], 
+        ],
         [
-            "Kitchen", 
-            0.32, 
-            "Kitchen_counter", 
+            "Kitchen",
+            0.32,
+            "Countertop",
             1
         ]
-    ], 
-    "context_room_label": "Kitchen", 
-    "context_surface_label": "Kitchen_counter", 
-    "local_id": 0, 
+    ],
+    "context_room_label": "Kitchen",
+    "context_surface_label": "Countertop",
+    "local_id": 0,
     "local_objects": [
         [
-            "Refrigerator", 
-            1, 
-            "large", 
+            "Refrigerator",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Kitchen_cabinet", 
-            1, 
-            "large", 
+            "Kitchen_cabinet",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Sink", 
-            1, 
-            "large", 
+            "Sink",
+            1,
+            "large",
             "near_3"
-        ], 
+        ],
         [
-            "Kitchen_cabinet", 
-            1, 
-            "medium", 
+            "Kitchen_cabinet",
+            1,
+            "medium",
             "near_3"
-        ], 
+        ],
         [
-            "Sugar_bowl_(dishware)", 
-            1, 
-            "small", 
+            "Sugar_bowl_(dishware)",
+            1,
+            "small",
             "near_1"
-        ], 
+        ],
         [
-            "Teabox", 
-            1, 
-            "medium", 
+            "Teabox",
+            1,
+            "medium",
             "near_1"
-        ], 
+        ],
         [
-            "Instant_coffee", 
-            1, 
-            "medium", 
+            "Instant_coffee",
+            1,
+            "medium",
             "near_2"
-        ], 
+        ],
         [
-            "Electric_water_boiler", 
-            1, 
-            "large", 
+            "Electric_water_boiler",
+            1,
+            "large",
             "near_3"
         ]
-    ], 
-    "query_ground_truth": "Mug", 
+    ],
+    "query_ground_truth": "Mug",
     "size": "small"
 }
-

@@ -1,0 +1,68 @@
+{
+    "bounding_box": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0, 
+            0, 
+            0
+        ]
+    ], 
+    "centroid": [
+        "0.139017", 
+        "1.78942", 
+        "-1.38386"
+    ], 
+    "co_occurrences": [
+        [
+            "Waste_container", 
+            0.3373493975903614, 
+            "near_2"
+        ], 
+        [
+            "Kitchen_side", 
+            0.024096385542168676, 
+            "near_2"
+        ], 
+        [
+            "Person", 
+            0.024096385542168676, 
+            "near_1"
+        ]
+    ], 
+    "context_history": [
+        [
+            "Kitchen", 
+            0.9518072289156626, 
+            "Kitchen_counter", 
+            1
+        ], 
+        [
+            "Office", 
+            0.04819277108433735, 
+            "Desk", 
+            1
+        ]
+    ], 
+    "context_room_label": "Kitchen", 
+    "context_surface_label": "Kitchen_counter", 
+    "local_id": 0, 
+    "local_objects": [
+        [
+            "Waste_container", 
+            0.3373493975903614, 
+            "large", 
+            "near_2"
+        ]
+    ], 
+    "query_ground_truth": "Fire_extinguisher", 
+    "size": "large"
+}
