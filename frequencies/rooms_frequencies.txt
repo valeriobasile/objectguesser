@@ -1,0 +1,11 @@
+315 Attic
+674 Basement
+326 Bathroom
+204 Bedroom
+292 Changing_room
+200 Dining_room
+459 Hall
+742 Kitchen
+17 Laundry_room
+267 Parlour
+237 Room
