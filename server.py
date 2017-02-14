@@ -171,5 +171,6 @@ class guess:
 
         return json.dumps(result_unique[:n])
 
+web.wsgi.runwsgi = lambda func, addr=None: web.wsgi.runfcgi(func, addr)
 if __name__ == "__main__":
     app.run()
