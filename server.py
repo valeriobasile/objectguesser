@@ -65,8 +65,6 @@ def parse_query(data, vicinity):
     return objects, labels, cooccurrences, room, surface
 
 def relatedness(o, objects, method, entityset='tools'):
-    print o
-    print objects
     if o in objects:
         return 0
 
