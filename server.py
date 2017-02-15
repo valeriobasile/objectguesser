@@ -68,6 +68,9 @@ def relatedness(o, objects, method, entityset='tools'):
     if o in objects:
         return 0
 
+    # deal with unknown vectors
+    objects = filter(lambda x: x in vectors['tools'], objects)
+
     m = map(lambda x: cosine_similarity(vectors[entityset][o], vectors['tools'][x]), objects)
     #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
 
@@ -213,6 +216,5 @@ class guessroom:
 
         return json.dumps(result_unique[:n])
 
-web.wsgi.runwsgi = lambda func, addr=None: web.wsgi.runfcgi(func, addr)
 if __name__ == "__main__":
     app.run()
