@@ -10,6 +10,7 @@ log.basicConfig(filename='log/server.log',level=log.INFO)
 
 urls = (
         '/guess', 'guess',
+        '/guessroom', 'guessroom',
 )
 
 app = web.application(urls, globals())
@@ -63,11 +64,13 @@ def parse_query(data, vicinity):
 
     return objects, labels, cooccurrences, room, surface
 
-def relatedness(o, objects, method):
+def relatedness(o, objects, method, entityset='tools'):
+    print o
+    print objects
     if o in objects:
         return 0
 
-    m = map(lambda x: cosine_similarity(vectors['tools'][o], vectors['tools'][x]), objects)
+    m = map(lambda x: cosine_similarity(vectors[entityset][o], vectors['tools'][x]), objects)
     #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
 
     if len(m)>1:
@@ -151,6 +154,47 @@ class guess:
 
             if o in frequencies['tools']:
                 freq = frequencies['tools'][o]
+            else:
+	            freq = 0
+
+            if args.am == "after":
+                if abstraction_level>0 and o in abstraction[abstraction_level]:
+                    o = abstraction[abstraction_level][o]
+
+            if freq >= threshold:
+                result.append({'object':o, 'relatedness':r, 'frequency':freq})
+        result_sorted = list(reversed(sorted(result, key=lambda x: x['relatedness'])))
+
+        # filter out duplicates
+        result_unique = []
+        for item in result_sorted:
+            objects = [x['object'] for x in result_unique]
+            if not item['object'] in objects:
+                result_unique.append(item)
+
+        return json.dumps(result_unique[:n])
+
+# extension: guess the room based on the objects observed at the scene
+class guessroom:
+    def POST(self):
+        # default values
+        args = web.input(n='10', p='2', m='prod', t='0', a='0', am='after')
+        n = eval(args.n)
+        proximity = eval(args.p)
+        threshold = eval(args.t)
+        abstraction_level = eval(args.a)
+        objects, labels, cooccurrences, room, surface = parse_query(web.data(), proximity)
+
+        result = []
+        for o in vectors['rooms'].keys():
+            if args.am == "before":
+                if abstraction_level>0 and o in abstraction[abstraction_level]:
+                    o = abstraction[abstraction_level][o]
+
+            r = relatedness(o, labels, method=args.m, entityset='rooms')
+
+            if o in frequencies['rooms']:
+                freq = frequencies['rooms'][o]
             else:
 	            freq = 0
 
