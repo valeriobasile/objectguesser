@@ -74,7 +74,7 @@ def relatedness(o, objects, method, entityset='tools'):
     m = map(lambda x: cosine_similarity(vectors[entityset][o], vectors['tools'][x]), objects)
     #m = [((1.0-weights)*i)+(weights*frequencies[o]) for i in m]
 
-    if len(m)>1:
+    if len(m)>=1:
         if method == 'prod':
             return reduce(lambda x,y:x*y, m)
         elif method == 'median':
